@@ -1,5 +1,6 @@
 import type {
   CocktailList,
+  FooterLink,
   NavLink,
   OpeningHour,
   ProfileList,
@@ -179,6 +180,14 @@ const sliderLists: SliderItem[] = [
   },
 ];
 
+const footerLinks: FooterLink[] = [
+  { label: "Privacy Policy", link: "#" },
+  { label: "Terms of Use", link: "#" },
+  { label: "Sales Policy", link: "#" },
+  { label: "Legal", link: "#" },
+  { label: "Site Map", link: "#" },
+];
+
 export {
   navLinks,
   cocktailLists,
@@ -190,4 +199,5 @@ export {
   storeInfo,
   socials,
   sliderLists,
+  footerLinks,
 };

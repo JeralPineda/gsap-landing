@@ -38,3 +38,8 @@ export interface SliderItem {
   title: string;
   description: string;
 }
+
+export type FooterLink = {
+  label: string;
+  link: string;
+};
